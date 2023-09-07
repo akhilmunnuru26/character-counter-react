@@ -1,0 +1,45 @@
+.input-card-bg-container {
+  background-color: #0f172a;
+  min-height: 100vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.input-card-title {
+  color: #f9c434;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.input-text-container {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  margin-top: 30px;
+}
+
+.input-element {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+  border: 0px;
+  padding-left: 10px;
+}
+.add-btn {
+  width: 100px;
+  height: 40px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  background-color: #fac534;
+  color: #0f172a;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}

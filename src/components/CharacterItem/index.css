@@ -1,0 +1,13 @@
+.char-item {
+  list-style-type: none;
+  font-size: 25px;
+  color: #0f172a;
+  margin: 10px;
+}
+
+.result {
+  font-size: 25px;
+  color: #0f172a;
+  font-weight: 500;
+  margin: 0px;
+}

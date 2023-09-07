@@ -1,0 +1,33 @@
+.output-bg-card-container {
+  background-color: #fac534;
+  min-height: 100vh;
+  min-width: 50vw;
+  padding: 15px;
+}
+
+.output-headline-container {
+  background-color: #f9bf21;
+  padding: 25px;
+}
+
+.output-card-title {
+  color: #334155;
+  font-size: 25px;
+}
+
+.character-list-counter {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.no-user-input-container {
+  width: 500px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.no-user-input-image {
+  width: 100%;
+}
