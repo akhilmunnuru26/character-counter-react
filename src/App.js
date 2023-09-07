@@ -11,9 +11,14 @@ const App = () => {
     setCharactersList(prevState => [...prevState, obj])
   }
 
+  const deleteItem = id => {
+    const updatedList = charactersList.filter(eachItem => eachItem.id !== id)
+    setCharactersList(updatedList)
+  }
+
   return (
     <div className="bg-container">
-      <OutputCard charactersList={charactersList} />
+      <OutputCard deleteItem={deleteItem} charactersList={charactersList} />
       <InputCard getCharacterList={getCharacterList} />
     </div>
   )

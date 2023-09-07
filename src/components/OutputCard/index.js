@@ -2,7 +2,7 @@ import CharacterItem from '../CharacterItem'
 import './index.css'
 
 const OutputCard = props => {
-  const {charactersList} = props
+  const {charactersList, deleteItem} = props
 
   return (
     <div className="output-bg-card-container">
@@ -21,7 +21,11 @@ const OutputCard = props => {
       ) : (
         <ul className="character-list-counter">
           {charactersList.map(eachItem => (
-            <CharacterItem key={eachItem.id} chars={eachItem} />
+            <CharacterItem
+              deleteItem={deleteItem}
+              key={eachItem.id}
+              chars={eachItem}
+            />
           ))}
         </ul>
       )}
